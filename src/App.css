@@ -809,3 +809,28 @@ section {
     gap: 1.5rem;
   }
 }
+
+/* Desktop-specific adjustments */
+@media (min-width: 769px) {
+  .hero {
+    padding: 10rem 2rem 2rem; /* Reduced from 12rem to 10rem */
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    padding-top: 2rem; /* Reduced from 3rem to 2rem */
+  }
+}
+
+/* Keep existing mobile styles unchanged */
+@media (max-width: 768px) {
+  .hero {
+    padding: 9rem 1rem 2rem;
+    min-height: 80vh;
+  }
+  
+  .hero-content {
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+}
