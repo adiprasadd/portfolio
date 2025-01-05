@@ -5,8 +5,22 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <h1 className="hero-title">Aditya Prasad</h1>
+        <a 
+          href="https://linkedin.com/in/adiprasadd" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="profile-link"
+        >
+          <div className="profile-image-wrapper">
+            <img src="profile.png" alt="Aditya Prasad" className="profile-image" />
+          </div>
+        </a>
         <p className="hero-subtitle">
-          Mechatronics Engineering + AI & Biomechanics Option @ University of Waterloo
+          <span className="highlight">Mechatronics Engineering</span> 
+          <span className="plus">+</span> 
+          <span className="highlight-alt">AI & Biomechanics Options</span>
+          <br />
+          <span className="university">@ University of Waterloo</span>
         </p>
         <div className="hero-description">
           AI Research Intern @ Preamble AI

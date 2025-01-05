@@ -6,6 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <p>&copy; {new Date().getFullYear()} Aditya Prasad. All rights reserved.</p>
+        <p className="email">aditya.prasad@uwaterloo.ca</p>
         <div className="social-links">
           <a href="https://github.com/adiprasadd" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://linkedin.com/in/adiprasadd" target="_blank" rel="noopener noreferrer">LinkedIn</a>

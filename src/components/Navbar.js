@@ -14,10 +14,14 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleLinkClick = () => {
+    setIsMenuOpen(false); // Close menu when a link is clicked
+  };
+
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-content">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo" onClick={handleLinkClick}>
           <img src="/logo.png" alt="Logo" className="logo-image" />
         </Link>
         <button 
@@ -29,10 +33,10 @@ function Navbar() {
           <span></span>
         </button>
         <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-          <li><Link to="/about">About</Link></li>
-          <li><a href="/#experience">Experience</a></li>
-          <li><a href="/#projects">Projects</a></li>
-          <li><a href="/#contact">Contact</a></li>
+          <li><Link to="/about" onClick={handleLinkClick}>About</Link></li>
+          <li><a href="/#experience" onClick={handleLinkClick}>Experience</a></li>
+          <li><a href="/#projects" onClick={handleLinkClick}>Projects</a></li>
+          <li><a href="/#contact" onClick={handleLinkClick}>Contact</a></li>
         </ul>
       </div>
     </nav>
