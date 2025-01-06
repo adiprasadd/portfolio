@@ -834,3 +834,23 @@ section {
     padding-top: 1rem;
   }
 }
+
+.project-link {
+  text-decoration: none;
+  position: relative;
+}
+
+.project-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  transition: width 0.3s ease;
+}
+
+.project-link:hover::after {
+  width: 100%;
+}
