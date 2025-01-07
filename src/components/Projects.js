@@ -26,6 +26,7 @@ function Projects() {
     },
     {
       title: "DistroBot",
+      link: "https://github.com/adiprasadd/DistroBot",
       subtitle: "Engineering Project",
       description: "Engineered a structurally rigid robot with 95% mechanical accuracy for payload handling.",
       tech: ["C++", "RobotC", "PID Control"],
