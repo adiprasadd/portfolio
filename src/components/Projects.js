@@ -15,6 +15,18 @@ function Projects() {
       ]
     },
     {
+      title: "Feedforward Neural Network",
+      link: "https://github.com/adiprasadd/feedforwardNN",
+      subtitle: "Machine Learning Project",
+      description: "Implemented a custom feedforward neural network in C++ to solve the XOR problem using backpropagation. Built from scratch using only standard libraries, featuring configurable layers, sigmoid activation, and gradient descent optimization.",
+      tech: ["C++", "Neural Networks", "Backpropagation"],
+      achievements: [
+        "Achieved 99% accuracy on XOR classification",
+        "Implemented custom weight initialization",
+        "Built modular architecture for extensibility"
+      ]
+    },
+    {
       title: "Robotic Exoskeleton Arm",
       subtitle: "Research Project",
       description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm.",
