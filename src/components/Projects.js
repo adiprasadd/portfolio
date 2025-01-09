@@ -17,7 +17,7 @@ function Projects() {
     {
       title: "Robotic Exoskeleton Arm",
       subtitle: "Research Project",
-      description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm.",
+      description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm. Currently in the process of rebuilding and considering other applications.",
       tech: ["C++", "RobotC", "Lego EV3"],
       achievements: [
         "Individual joint control implementation",
