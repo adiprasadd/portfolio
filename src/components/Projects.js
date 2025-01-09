@@ -21,7 +21,7 @@ function Projects() {
       description: "Implemented a custom feedforward neural network in C++ to solve the XOR problem using backpropagation. Built from scratch using only standard libraries, featuring configurable layers, sigmoid activation, and gradient descent optimization.",
       tech: ["C++", "Neural Networks", "Backpropagation"],
       achievements: [
-        "Achieved 99% accuracy on XOR classification",
+        "Achieved 100% accuracy on XOR classification",
         "Implemented custom weight initialization",
         "Built modular architecture for extensibility"
       ]
