@@ -854,3 +854,23 @@ section {
 .project-link:hover::after {
   width: 100%;
 }
+
+.project-link-style {
+  position: relative;
+  cursor: default;
+}
+
+.project-link-style::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+.project-link-style:hover::after {
+  width: 100%;
+}

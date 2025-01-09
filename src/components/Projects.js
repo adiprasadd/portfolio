@@ -17,12 +17,13 @@ function Projects() {
     {
       title: "Robotic Exoskeleton Arm",
       subtitle: "Research Project",
-      description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm. Currently in the process of rebuilding and considering other applications.",
+      description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm.",
       tech: ["C++", "RobotC", "Lego EV3"],
       achievements: [
         "Individual joint control implementation",
         "Programmed complex motion sequences"
-      ]
+      ],
+      noLink: true
     },
     {
       title: "DistroBot",
@@ -56,7 +57,9 @@ function Projects() {
                   </a>
                 </h3>
               ) : (
-                <h3>{project.title}</h3>
+                <h3 className={project.noLink ? "project-link-style" : ""}>
+                  {project.title}
+                </h3>
               )}
               <span className="project-subtitle">{project.subtitle}</span>
             </div>
