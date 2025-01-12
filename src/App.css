@@ -874,3 +874,8 @@ section {
 .project-link-style:hover::after {
   width: 100%;
 }
+
+.resume-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(96, 165, 250, 0.2);
+}
