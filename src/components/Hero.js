@@ -26,6 +26,14 @@ function Hero() {
           AI Research Intern @ Preamble AI
           <span className="location-tag">Pittsburgh, PA (Remote)</span>
         </div>
+        <a 
+          href="/resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="resume-button"
+        >
+          Download Resume
+        </a>
       </div>
     </section>
   );
