@@ -16,9 +16,9 @@ function Hero() {
           </div>
         </a>
         <p className="hero-subtitle">
-          <span className="highlight">Mechatronics Engineering</span> 
+          <span className="highlight">Software Engineering</span> 
           <span className="plus">+</span> 
-          <span className="highlight-alt">AI & Biomechanics Options</span>
+          <span className="highlight-alt">AI & Human-Computer Interaction Options</span>
           <br />
           <span className="university">@ University of Waterloo</span>
         </p>
