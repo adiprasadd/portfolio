@@ -894,3 +894,10 @@ section {
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .resume-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
