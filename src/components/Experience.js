@@ -3,7 +3,7 @@ import React from 'react';
 function Experience() {
   const experiences = [
     {
-      title: "AI Research Intern",
+      title: "AI Engineering Intern",
       company: "Preamble AI",
       logo: "/preamble.png",
       location: "Pittsburgh, PA (Remote)",
