@@ -15,6 +15,14 @@ function Projects() {
       ]
     },
     {
+      title: "TartanHacks",
+      subtitle: "2024",
+      description: "Coming Soon",
+      tech: [],
+      achievements: [],
+      noLink: true
+    },
+    {
       title: "Feedforward Neural Network",
       link: "https://github.com/adiprasadd/feedforwardNN",
       subtitle: "Machine Learning Project",
