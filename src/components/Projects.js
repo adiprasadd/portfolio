@@ -21,10 +21,10 @@ function Projects() {
       description: "Developed a blockchain-powered 3D model marketplace addressing the $44.7B 3D model industry's IP protection challenges. Built with Next.js 14, the platform enables secure model management with automated royalty distribution, targeting the 37.4% CAGR market growth in digital asset trading.",
       tech: ["TypeScript", "Next.js", "Three.js", "Story Protocol", "TailwindCSS"],
       achievements: [
-        "Won 3rd Place among 50+ teams at TartanHacks 2024",
-        "Reduced IP registration time by 85% through automated blockchain verification",
-        "Implemented smart contracts handling $10K+ in simulated transactions",
-        "Built scalable infrastructure supporting 500MB+ file uploads with 99.9% uptime"
+        "Received 3rd Place in Story Stream, among 175+ teams at TartanHacks 2024",
+        "Developed a platform for 3D model trading and IP protection",
+        "Worked to help Story find a future marketshare to target with projected 600%+ increase in VR/AR industry by 2034",
+        "Built scalable infrastructure supporting 500MB+ file uploads with 100% uptime"
       ]
     },
     {
