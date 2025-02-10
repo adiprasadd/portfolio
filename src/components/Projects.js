@@ -41,14 +41,14 @@ function Projects() {
     },
     {
       title: "Robotic Exoskeleton Arm",
+      link: "https://github.com/adiprasadd",
       subtitle: "Research Project",
       description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm.",
       tech: ["C++", "RobotC", "Lego EV3"],
       achievements: [
         "Individual joint control implementation",
         "Programmed complex motion sequences"
-      ],
-      noLink: true
+      ]
     },
     {
       title: "DistroBot",
