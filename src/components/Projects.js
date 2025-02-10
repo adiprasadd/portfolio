@@ -44,7 +44,7 @@ function Projects() {
       link: "https://github.com/adiprasadd",
       subtitle: "Research Project",
       description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm. Used software and mechanical engineering principles to perform 5 unique tasks including grasping a mug.",
-      tech: ["C++", "RobotC", "Lego EV3"],
+      tech: ["C", "RobotC", "Lego EV3"],
       achievements: [
         "Individual joint control implementation",
         "Programmed complex motion sequences"
