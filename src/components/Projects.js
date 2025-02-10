@@ -9,7 +9,7 @@ function Projects() {
       description: "Developed a blockchain-powered 3D model marketplace addressing the $44.7B 3D model industry's IP protection challenges. Built with Next.js, the platform enables secure model management with automated royalty distribution, targeting the 37.4% CAGR market growth in digital asset trading.",
       tech: ["TypeScript", "Next.js", "Three.js", "Story Protocol", "TailwindCSS"],
       achievements: [
-        "Received 3rd Place in Story Stream, among 175+ teams at TartanHacks 2024",
+        "Received 3rd Place in Story Stream, among 175+ teams at TartanHacks 2025",
         "Developed a platform for 3D model trading and IP protection",
         "Worked to help Story find a future marketshare to target with projected 600%+ increase in VR/AR industry by 2034",
         "Built scalable infrastructure supporting 500MB+ file uploads with 100% user satisfaction"
@@ -43,7 +43,7 @@ function Projects() {
       title: "Robotic Exoskeleton Arm",
       link: "https://github.com/adiprasadd",
       subtitle: "Research Project",
-      description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm.",
+      description: "Implemented Lego Robotics resources to build a surrounding exoskeleton hand and partial forearm. Used software and mechanical engineering principles to perform 5 unique tasks including grasping a mug.",
       tech: ["C++", "RobotC", "Lego EV3"],
       achievements: [
         "Individual joint control implementation",
