@@ -23,7 +23,7 @@ function Hero() {
           <span className="university">@ University of Waterloo</span>
         </p>
         <div className="hero-description">
-          AI Research Intern @ Preamble AI
+          AI Engineering Intern @ Preamble AI
           <span className="location-tag">Pittsburgh, PA (Remote)</span>
         </div>
         <a 
