@@ -27,7 +27,7 @@ function Hero() {
           <span className="location-tag">Pittsburgh, PA (Remote)</span>
         </div>
         <a 
-          href="/resume.pdf" 
+          href="/Aditya_Prasad_Resume.pdf" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="resume-button"
